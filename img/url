@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<base href="https://www.ztm.poznan.pl/"><!--[if lte IE 6]></base><![endif]-->
+	<title>Praca na stanowisku kontrolera biletów &raquo; Zarząd Transportu Miejskiego w Poznaniu</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="deklaracja-dostępności" content="https://www.ztm.poznan.pl/pl/deklaracja-dostepnosci">
+	
+
+	
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-55JSLMV');</script>
+<!-- End Google Tag Manager -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/themes/ztm/combined/combined.css?m=1679302281" />
+<link rel="stylesheet" type="text/css" media="print" href="/themes/ztm/css/print.css?m=1669893003" />
+<link rel="stylesheet" type="text/css" href="/ztm-trip-planner/assets/css/trip-planner-box.css?m=1619349304" />
+</head>
+<body class="Page no-sidebar " dir="ltr">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55JSLMV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script type="text/javascript">
+	function googleTranslateElementInit() {
+		new google.translate.TranslateElement({pageLanguage: 'pl-PL'}, 'google_translate_element');
+	}
+</script>
+<style>
+	.goog-te-gadget {
+		display: flex;
+		flex: 1 1 auto;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.goog-te-gadget > div {
+		margin-left: 10px;
+		order:3;
+	}
+	.goog-te-gadget span {
+		margin-left: 5px;
+	}
+	.goog-te-gadget > div select {
+		font-size: 10px;
+		line-height: 10px;
+		padding: 2px 24px 2px 7px;
+		height: 25px;
+	}
+</style>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<header class="hd" style="padding-top: 0px;">
+	<div class="row">
+		<div class="column large-8 medium-6"></div>
+		<div class="column large-4 medium-6">
+			<div id="google_translate_element"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column large-3 medium-3 small-3 hide-for-small-only">
+			<a href="" class="logo" style="position: relative;">
+				<img src="themes/ztm/img/ZTM-logo.svg" alt="Logotyp Zarządu Transportu Miejskiego w Poznań" longdesc="/" class="logo-home"/>
+			</a>
+		</div>
+		<div class="column large-9 medium-9 small-12 no-left-pad">
+			<div class="row topZTM-bar">
+				<div class="column large-3 medium-3 small-10 show-for-small-only ">
+					<a href="" class="logo" style="position: relative; display: inline-block; max-width: 160px;">
+						<img src="themes/ztm/img/ZTM-logo.svg" alt="Logotyp Zarządu Transportu Miejskiego w Poznaniu" longdesc="/" class="logo-home"/>
+					</a>
+
+					<div style="flex: 1 1 100%;float: right;max-width: 100px;display: flex;align-items: center;height: 68px; flex-flow: column; justify-content: space-around;">
+							<a href="https://www.peka.poznan.pl/km" target="_blank" style="display: block;padding: 5px 0;">
+								<img
+										src="themes/ztm/img/peka.svg"
+										alt="Logotyp Urzędu Miejskiego Miasta Poznań" longdesc="/"
+										style="max-height: 25px; display: inline-block; width: 100%;"
+								/>
+							</a>
+							<a href="https://www.opspoznan.pl" target="_blank" style="display: block;padding: 5px 0;">
+								<img
+										src="themes/ztm/img/ops.svg"
+										alt="Logotyp Urzędu Miejskiego Miasta Poznań" longdesc="/"
+										style="max-height: 25px; display: inline-block;  width: 100%;"
+								/>
+							</a>
+					</div>
+				</div>
+
+
+
+
+
+
+
+				<div class="column large-12 medium-9 small-2">
+					<div class="hamburger-nav" style="margin-top: 7px;">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<ul class="hide-for-small-only top-list">
+						<li class="no-left-pad" style="float: left; margin-left: -15px!important;">
+							<a href="https://www.peka.poznan.pl/km" target="_blank" class="peka-logo">
+							<img
+									src="themes/ztm/img/peka.svg"
+									alt="Logotyp Urzędu Miejskiego Miasta Poznań" longdesc="/"
+									style="max-height: 35px;"
+							/></a>
+						</li>
+						<li style="float:left;max-width: 115px;" class="">
+							<a href="https://www.opspoznan.pl" target="_blank" class="platnosci-logo">
+							<img
+								src="themes/ztm/img/ops.svg"
+								alt="Logotyp Urzędu Miejskiego Miasta Poznań" longdesc="/"
+								style="max-height: 35px;"
+							/></a></li>
+						<li style="display:inline-block;max-width:115px;"><a href="tel:+48616463344" onclick=”ga(‚send’, ‚event’, ‚Kontakt’, ‚Telefon-klikniecie’);”><img src="themes/ztm/img/telefon.svg" class="telefon-icon" alt="Logotyp Poznan Kontakt" longdesc="/" /></a></li>
+						<li style="max-width:27px"><a href="https://bip.poznan.pl/bip/zarzad-transportu-miejskiego,2018/" target="_blank"><img src="themes/ztm/img/icons/bip.png" alt="Logotyp Biuletyn Informacji Publicznej - BIP" longdesc="/" /></a></li>
+						<li style="max-width:41px"><a href="https://epuap.gov.pl/wps/portal" target="_blank"><img src="themes/ztm/img/icons/epuap-small.png" alt="Logotyp Elektronicznej Platformy Usług Administracji Publicznej - ePUAP2" longdesc="/" /></a></li>
+						<li style="max-width:28px"><a href="#" class="changeContrast-bt"><img src="themes/ztm/img/icons/zmien-kontrast.png" alt="Ikona pozwalająca zmienić kontrast strony" longdesc="/" /></a></li>
+						<li class="search-box"><a href="#" data-open="search-modal" class="no-click"><img src="themes/ztm/img/icons/znajdz-ikona.png" alt="Ikona otwierająca okno wyszukiwania na stronie" style="max-width:30px" longdesc="/" /></a></li>
+
+						<li style="display:inline-block;max-width:115px; margin-left: 0;"><a href="https://www.ztm.poznan.pl/pl/o-ztm/inwestycje-2/prowadzone/"><img style="max-height: 40px;" src="themes/ztm/img/logo_ue.jpg" alt="Logotyp Unia Europejska" longdesc="/" /></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row contrast-row ">
+	                <div class="column small-2 large-2 ">
+		                <div class="contrast-box">
+			                <a href="#" class="contrast-bt default-contrast" data-contrast="default">
+				                X
+			                </a>
+		                </div>
+	                </div>
+	                <div class="column small-2 large-1">
+		                <div class="contrast-box">
+			                <a href="#" class="contrast-bt bw-contrast" data-contrast="black-white">
+				                A
+			                </a>
+		                </div>
+	                </div>
+	                <div class="column small-2 large-1">
+		                <div class="contrast-box">
+			                <a href="#" class="contrast-bt yb-contrast" data-contrast="yellow-black">
+				                A
+			                </a>
+		                </div>
+	                </div>
+	                <div class="column small-2 large-1">
+		                <div class="contrast-box">
+			                <a href="#" class="contrast-bt by-contrast" data-contrast="black-yellow">
+				                A
+			                </a>
+		                </div>
+	                </div>
+	                <div class="column small-2 large-1">
+		                <div class="contrast-box">
+			                <a href="#" class="contrast-bt gb-contrast" data-contrast="green-black">
+				                A
+			                </a>
+		                </div>
+	                </div>
+	                <div class="column small-2 large-1 end">
+		                <div class="contrast-box">
+			                <a href="#" class="contrast-bt bg-contrast" data-contrast="black-green">
+				                A
+			                </a>
+		                </div>
+	                </div>
+
+			</div>
+			<div class="row nav-bar">
+				<div class="large-12 small-12 columns no-left-pad">
+
+					<ul class="show-for-small-only top-list">
+						<li><a href="tel:+48616463344" target="_blank"><img src="themes/ztm/img/telefon.svg" class="telefon-icon" alt="Logotyp Urzędu Miejskiego Miasta Poznań" longdesc="/" /></a></li>
+						<li><a href="https://epuap.gov.pl/wps/portal" target="_blank"><img src="themes/ztm/img/icons/epuap-smll.png" alt="Logotyp Elektronicznej Platformy Usług Administracji Publicznej - ePUAP2" longdesc="/" /></a></li>
+						<li><a href="#" class="changeContrast-bt"><img src="themes/ztm/img/icons/contrast-dark.png" alt="Ikona pozwalająca zmienić kontrast strony" longdesc="/" /></a></li>
+						<li class="search-box"><a href="#" data-open="search-modal" class="no-click"><img src="themes/ztm/img/icons/search-ico.png" alt="Ikona otwierająca okno wyszukiwania na stronie" longdesc="/" /></a></li>
+
+					</ul>
+					<nav class="main-nav-wrapper">
+	<ul class="main-nav">
+		
+			<li class="link"><a href="/">Strona główna</a>
+				
+			</li>
+		
+			<li class="link"><a href="/pl/rozklad-jazdy/">Rozkład jazdy</a>
+				
+			</li>
+		
+			<li class="link"><a href="/pl/peka-info/">PEKA info</a>
+				
+			</li>
+		
+			<li class="link"><a href="/pl/abc-pasazera/">ABC pasażera</a>
+				
+			</li>
+		
+			<li class="link"><a href="/pl/cennik/">Bilety</a>
+				
+			</li>
+		
+			<li class="link"><a href="/pl/aktualnosci/">Aktualności</a>
+				
+			</li>
+		
+			<li class="link"><a href="/pl/komunikaty/">Komunikaty </a>
+				
+			</li>
+		
+			<li class="link"><a href="/pl/kontakt/">Kontakt</a>
+				
+			</li>
+		
+
+		
+			<li><a href="#" class="sub-nav no-click">Więcej</a></li>
+	</ul>
+</nav>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+    
+	<div class="more-nav-wrapper">
+        <div class="more-nav-inner">
+	        <div class="row">
+
+		        <div class="column large-4 medium-4 small-12">
+			        <ul>
+                        
+					        <li class="more-nav-itm"><a href="/pl/praca/">Praca</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/o-ztm/zamowienia/">Zamówienia publiczne</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/kontakt/ogloszenia-ptz/">Ogłoszenia PTZ</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/kontakt/ogloszenia-nieruchomosci/">Ogłoszenia - nieruchomości</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/kontakt/dokumenty/">Dokumenty do pobrania</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/o-ztm/">O ZTM</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/o-ztm/inwestycje-2/">Inwestycje</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/kontakt/poznanska-rada-transportu-aglomeracyjnego/">Poznańska Rada Transportu Aglomeracyjnego</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/dla-deweloperow/">Dla Deweloperów</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/ochrona-danych-osobowych/">Ochrona Danych Osobowych</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/ochrona-srodowiska/">Ochrona Środowiska</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/polityka-bezpieczenstwa/">Polityka prywatności</a> </li>
+                        
+					        <li class="more-nav-itm"><a href="/pl/deklaracja-dostepnosci/">Deklaracja dostępności</a> </li>
+                        
+						<li class="more-nav-itm"><a href="/aktualnosci/rss" target="_blank">RSS Aktualności</a></li>
+						<li class="more-nav-itm"><a href="/komunikaty/rss" target="_blank">RSS Komunikaty</a></li>
+			        </ul>
+		        </div>
+	        </div>
+	        <button class="close-button close-more" data-close aria-label="Close modal" type="button">
+		        <span aria-hidden="true">&times;</span>
+	        </button>
+        </div>
+
+    </div>
+    
+</header>
+
+
+<div class="sections-wrapper">
+	<section class="content-section typography">
+    
+	<div class="row">
+        
+        <div class="column  large-12 medium-12 small-12 content-col">
+			<div class="main-content">
+                <h1>Praca na stanowisku kontrolera biletów</h1>
+
+                <h3><span style="color: #888888;"><img class="right" title="" src="assets/Uploads/praca-kontrolera.png" alt="praca kontrolera" width="300" height="auto"><span style="color: #333399;">Sprawdź czy ta praca jest dla Ciebie?</span></span><span style="color: #333399;"> <br></span></h3><h5><span style="color: #333399;"><strong>Na czym polega praca kontrolera biletów?</strong></span></h5><p><span style="color: #333399;">Kontroler biletów przemieszcza się na terenie Miasta Poznań i gmin, z którymi podpisano porozumienia transportowe (sprawdź zasięg kontroli <a href="pl/cennik/taryfa-biletowa/strefy-taryfowe/"><span style="color: #333399;">tutaj</span></a>) i kontroluje bilety w pojazdach komunikacji publicznej. Kontrola odbywa się przy użyciu czytnika kart PEKA lub poprzez sprawdzenie ważności biletu papierowego bądź zakupionego za pomocą smartfona. Jeżeli pasażer nie posiada ważnego biletu lub dokumentu uprawniającego do ulgi, kontroler wystawia wezwanie do uiszczenia opłaty dodatkowej lub pobiera ją na miejscu od gapowicza. Kontrole realizowane są w ciągu dnia roboczego, ale także w weekendy oraz w porze nocnej. Kontroler zawsze pracuje w zespole - co najmniej dwuosobowym. Dokładny opis przeprowadzenia kontroli można sprawdzić <a href="pl/cennik/oplaty-dodatkowe/regulamin-kontroli-biletow/"><span style="color: #333399;">tutaj</span></a>. Prawidłowe przeprowadzenie kontroli zależy od Twoich umiejętności i postępowania zgodnie z regulaminem kontroli. Od kontrolera wymagamy umiejętności radzenia sobie ze stresem - opanowywania emocji, asertywności i umiejętności łagodzenia konfliktów. </span></p><h5><span style="color: #333399;"><strong>Jakie zadania realizuje kontroler biletów?</strong></span></h5><p><span style="color: #333399;">- prowadzenie kontroli biletów w środkach lokalnego transportu zbiorowego,</span><br><span style="color: #333399;">- obsługa urządzeń mobilnych (terminal płatniczy, terminal kontrolerski),</span><br><span style="color: #333399;">- wystawianie druków opłaty dodatkowej i wezwań do zapłaty, </span><br><span style="color: #333399;">- udzielanie pasażerom informacji dotyczących publicznego transportu zbiorowego (np. o taryfach, regulaminie przewozów, układzie linii),</span><br><span style="color: #333399;">- prowadzenie dokumentacji kontroli</span></p><h5><span style="color: #333399;"><strong>Jak wyglądają pierwsze dni w pracy?</strong></span></h5><p><span style="color: #333399;">W celu nauki, nabrania wprawy i doświadczenia przez pierwszy okres zatrudnienia będziesz pracował z doświadczonym kolegą lub koleżanką, którzy będą Cię wspierać w wykonywanych obowiązkach.</span></p><h5><span style="color: #333399;"><strong>Co oferujemy?</strong></span></h5><p><span style="color: #333399;">- stabilne zatrudnienie w jednostce publicznej,</span><br><span style="color: #333399;">- atrakcyjne wynagrodzenie zależne od własnych efektów pracy,</span><br><span style="color: #333399;">- umowa o pracę na pełen etat lub pół etatu,</span><br><span style="color: #333399;">- pierwsza umowa na 6 miesięcy,</span><br><span style="color: #333399;">- trzynaste wynagrodzenie,</span><br><span style="color: #333399;">- dofinansowanie do studiów, nauki języków obcych,</span><br><span style="color: #333399;">- dofinansowanie do pakietów sportowych,</span><br><span style="color: #333399;">- dofinansowanie w ramach ZFŚS do wakacji, rekreacji, kultury</span></p><h5><span style="color: #333399;"><strong>Jakie wymagania stawiamy kandydatom?</strong></span></h5><p><span style="color: #333399;">- wykształcenie średnie,</span><br><span style="color: #333399;">- obywatelstwo polskie,</span><br><span style="color: #333399;">- podstawowa wiedza o funkcjonowaniu układu komunikacyjnego i taryfy biletowej ZTM,</span><br><span style="color: #333399;">- wysoka kultura osobista,</span><br><span style="color: #333399;">- odporność na stres, asertywność, umiejętność łagodzenia konfliktów,</span><br><span style="color: #333399;">- komunikatywność i umiejętność pracy w zespole,</span><br><span style="color: #333399;">- praca na terenie Miasta Poznania i gmin, z którymi Miasto Poznań zawarło porozumienia międzygminne (sprawdź zasięg kontroli tutaj)</span></p><h5><span style="color: #333399;"><strong>Jak aplikować?</strong></span></h5><p><span style="color: #333399;">Prześlij swoje CV na ztm@ztm.poznan.pl.</span><br><span style="color: #333399;">Jeżeli spełniasz nasze wymagania, zaprosimy Cię na rozmowę kwalifikacyjną online lub stacjonarnie (kontaktujemy się jedynie z wybranymi kandydatami).</span></p><p><span style="color: #333399;">Na kolejnych etapach wymagane będzie przedłożenie dokumentów: </span><br><span style="color: #333399;"> - oświadczenia kandydata o korzystaniu z pełni praw publicznych, </span><br><span style="color: #333399;"> - oświadczenia kandydata o nieskazaniu prawomocnym wyrokiem za umyślne przestępstwa lub umyślne przestępstwo skarbowe, </span><br><span style="color: #333399;"> - oświadczenia o posiadaniu obywatelstwa polskiego, </span><br><span style="color: #333399;"> - kserokopii dokumentów potwierdzających wykształcenie oraz staż pracy.</span><br><span style="color: #333399;">Rekrutacja obejmuje także testy psychologiczne i rozmowę z psychologiem.</span></p><div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px; margin-bottom: 30px;">
+<div style="padding: 10px; border-radius: 20px; border: 1px solid #3c64a0; height: 100%;">
+<p style="text-transform: uppercase;"><span style="color: #333399;"><strong>Stefan, kontroler biletów od 1 roku</strong></span></p>
+<p><span style="color: #333399;">"Do zatrudnienia w ZTM na stanowisku kontrolera biletów przekonała mnie stabilność zatrudnienia oraz atrakcyjne zarobki".</span></p>
+</div>
+<div style="padding: 10px; border-radius: 20px; border: 1px solid #3c64a0; height: 100%;">
+<p style="text-transform: uppercase;"><span style="color: #333399;"><strong>Zofia, kontroler biletów od 5 lat</strong></span></p>
+<p><span style="color: #333399;">"Praca kontrolera biletów uczy samodzielności. Korzyści to atrakcyjne wynagrodzenie, bogaty pakiet świadczeń socjalnych oraz pewny pracodawca. Panuje tu dobra atmosfera wśród współpracowników".</span></p>
+</div>
+<div style="padding: 10px; border-radius: 20px; border: 1px solid #3c64a0; height: 100%;">
+<p style="text-transform: uppercase;"><span style="color: #333399;"><strong>Robert, kontroler biletów od 16 lat</strong></span></p>
+<p><span style="color: #333399;">"Praca w ZTM to stabilne zatrudnienie na lata. Pracujemy w zgranej grupie. Po pracy organizujemy wspólne wyjścia".</span></p>
+</div>
+<div style="padding: 10px; border-radius: 20px; border: 1px solid #3c64a0; height: 100%;">
+<p style="text-transform: uppercase;"><span style="color: #333399;"><strong>Tomek, kontroler biletów od 2 lat </strong></span></p>
+<p><span style="color: #333399;">"Warunki finansowe są bardzo atrakcyjne: liczne premie, 13-ta pensja, nagrody jubileuszowe, dodatek stażowy. Kontroler biletów ma dużo samodzielności w zakresie organizacji pracy i podejmowania decyzji".</span></p>
+</div>
+</div><h3><br><span style="color: #333399;"><strong>Masz dodatkowe pytania - napisz do nas!</strong></span><br><span style="color: #333399;"><strong>ztm@ztm.poznan.pl</strong></span><span style="color: #333399;"> <br></span></h3><h3><span style="color: #333399;"><strong>Sprawdź czy aktualnie poszukujemy pracowników na to stanowisko - <a title="Przekierowanie na stronę BIP Poznań" href="http://bip.poznan.pl/bip/oferty-pracy/?or_id=2018"><span style="color: #333399;">sprawdź oferty na BIP</span></a></strong></span></h3><p> </p><p><span style="color: #000000;"> </span></p>
+
+                
+
+                
+
+			</div>
+		</div>
+	</div>
+</section>
+
+	
+		<div class="row">
+			<div class="column large-12 small-12 align-right print-row clearfix">
+				<div class="print-widget">
+    <a href="#" class="print-btn" title="drukuj"><i class="fa fa-print" aria-hidden="true"></i></a> / <a href="pdf/export-pdf" class="pdf-button" title="Pobierz PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+</div>
+			</div>
+		</div>
+	
+</div>
+
+	<footer class="ft">
+	<div class="row">
+		<div class="column large-12 medium-12 small-12">
+            
+	            <ul class="ft-nav">
+                    
+	                    <li><a href="/pl/kontakt/napisz-do-nas/">Napisz do nas</a></li>
+                    
+	                    <li><a href="/pl/o-ztm/zamowienia/">Zamówienia publiczne</a></li>
+                    
+	                    <li><a href="/pl/site-map/">Mapa strony</a></li>
+                    
+	                    <li><a href="/pl/kontakt/dokumenty/">Dokumenty do pobrania</a></li>
+                    
+	                    <li><a href="/pl/o-ztm/">O ZTM</a></li>
+                    
+	                    <li><a href="/pl/dla-deweloperow/">Dla Deweloperów</a></li>
+                    
+	                    <li><a href="/pl/ochrona-danych-osobowych/">Ochrona Danych Osobowych</a></li>
+                    
+	                    <li><a href="/pl/deklaracja-dostepnosci/">Deklaracja dostępności</a></li>
+                    
+					<li><a href="/aktualnosci/rss" target="_blank">RSS Aktualności</a></li>
+					<li><a href="/komunikaty/rss" target="_blank">RSS Komunikaty</a></li>
+	            </ul>
+            
+		</div>
+	</div>
+	<div class="row">
+		<div class="column large-12 medium-12 small-12">
+			<span class="copy">Wszystkie prawa zastrzeżone: Zarząd Transportu Miejskiego w Poznaniu</span>
+		</div>
+	</div>
+</footer>
+
+
+<div class="cookies-info-container">
+	<div class="container">
+		<div class="row">
+			<div class="column large-9 medium-9 small-12">
+				Ta strona używa plików cookies. Korzystając z niej, wyrażasz zgodę na używanie cookies, zgodnie z aktualnymi ustawieniami przeglądarki.
+				Jeżeli nie wyrażasz zgody - zmień ustawienia swojej przeglądarki.
+				<a href="https://www.ztm.poznan.pl/pl/polityka-bezpieczenstwa/" style="color: #00b0f0;">Dowiedz się więcej z naszej polityki prywatności.</a>
+			</div>
+			<div class="column large-3 medium-3 small-12">
+				<button class="accept-cookies-info">OK, przejdź do serwisu</button>
+			</div>
+		</div>
+	</div>
+	<button class="close-cookies-container">X</button>
+</div>
+
+
+<div class="reveal full" id="search-modal" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
+	<button class="close-button" data-close aria-label="Close modal" type="button">
+		<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="search-content ">
+		<div class="row">
+			<div class="large-6 small-8 small-centered large-centered">
+				<form action="search" method="get">
+					<div class="input-group">
+						<input type="text" name="Query" class="txt-field input-group-field" title="Wpisz frazę" placeholder="Wpisz frazę"/>
+						<div class="input-group-button">
+							<button><img src="themes/ztm/img/icons/search-ico.png" alt="Kontrast"></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</div>
+</div>
+	
+	<!-- <div id="PopUP" class="modal fade" data-id="4" data-backdrop="static" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title"></h4>
+				</div>
+				<div class="modal-body">
+					
+						<p><strong><span style="color: #0086e0;">Ochrona danych osobowych w Zarządzie Transportu Miejskiego w Poznaniu</span></strong></p><p>Zarząd Transportu Miejskiego w Poznaniu w pełni respektuje i szanuje  prawo do ochrony danych osobowych klientów publicznego transportu zbiorowego, pracowników, kontrahentów i partnerów. W związku z tym przedstawiamy Państwu najważniejsze zasady ochrony danych osobowych funkcjonujące w ZTM.</p><p align="left"><strong><span style="color: #0086e0;">Administrator danych osobowych</span></strong></p><p>Zgodnie z art. 13 i art. 14 ogólnego Rozporządzenia o ochronie danych osobowych z dnia 27 kwietnia 2016r. (RODO) informujemy, iż Administratorem Państwa danych osobowych jest Zarząd Transportu Miejskiego w Poznaniu (ZTM) z siedzibą przy ulicy Matejki 59, 60-770 Poznań, a w zakresie wydawania i obsługi karty PEKA, Miasto Poznań, w imieniu i na rzecz którego działa Zarząd Transportu Miejskiego w Poznaniu (ZTM).</p><p>Zawsze przed rozpoczęciem czynności przetwarzania danych osobowych, ZTM identyfikuje cel i podstawę prawną przetwarzania oraz określa okres przechowywania danych.</p><p><span style="color: #0086e0;"><strong>Przetwarzanie danych osobowych w ZTM</strong></span></p><p>Państwa dane osobowe mogą być przetwarzane:</p><ul><li>ze względu na realizację umowy, która wiąże Państwa z Administratorem lub działania niezbędne do jej zawarcia (Art. 6 ust. 1 lit. b),</li>
+<li>ze względu na wymagania prawne, do których przestrzegania zobligowany jest Administrator (Art. 6 ust. 1 lit. c),</li>
+<li>gdy przetwarzanie jest niezbędne do wykonania zadania realizowanego w interesie publicznym (Art. 6 ust. 1 lit. e),</li>
+<li>na podstawie uzyskanej od Państwa zgody (Art. 6 ust. 1 lit. a).</li>
+</ul><p><strong><span style="color: #0086e0;">Jeżeli jesteś naszym klientem…</span></strong></p><p>Państwa dane osobowe są nam potrzebne, by zrealizować umowę jaką Państwo zawierają z ZTM korzystając z publicznego transportu zbiorowego organizowanego przez ZTM (podstawa prawna przetwarzania: art. 6 ust 1 lit. b RODO), Wykorzystujemy je do:</p><p>- wydania imiennej karty PEKA, zakupu i obsługi elektronicznych biletów (dane będą przetwarzane do momentu likwidacji konta/karty PEKA, a następnie w ograniczonym zakresie przez okres, po którym przedawniają się roszczenia wynikające z umowy (zwykle 10 lat).</p><p>- weryfikacji uprawnienia do przyznania ulgi - do momentu wygaśnięcia ulgi,</p><p>- weryfikacji dokumentu przewozu (bilety i uprawnienia do ulg/zwolnień) - przez okres, po którym przedawniają się roszczenia wynikające z umowy (zwykle 10 lat).</p><p>- wystawienia wezwania do zapłaty opłaty dodatkowej (brak ważnego biletu), do momentu wygaśnięcia zobowiązania a następnie przez 6 lat ze względu na prawo podatkowe.</p><p>- obsługi reklamacji od opłat dodatkowych- do momentu zakończenia obsługi reklamacji a następnie przez okres, po którym przedawniają się roszczenia wynikające z przepisów prawa (zwykle 10 lat).</p><p>Państwa dane osobowe mogą być przetwarzane również ze względu na wymagania prawne ciążące na ZTM (art. 6 ust 1 lit. c RODO), w celu:</p><p>- obsługi reklamacji, a także skarg, wniosków i petycji; będą one przetwarzane do momentu zakończenia postępowania, a następnie przez okres, po którym przedawniają się roszczenia wynikające z przepisów prawa (zwykle 10 lat).</p><p>Z uwagi na konieczność zapewnienia prawidłowego funkcjonowania oraz zapewnienia zgodności z prawem, Państwa dane osobowe mogą zostać przekazane takim podmiotom jak:</p><p>Urząd Miasta Poznania i jego jednostki organizacyjne, Rada Miasta Poznania, dostawcy systemów IT, firmy doradcze i konsultingowe, kancelarie prawne i windykacyjne, operatorzy (przewoźnicy realizujący przewozy na rzecz ZTM), firmy realizujące usługę niszczenia dokumentów, rejestry dłużników. Państwa dane osobowe mogą zostać udostępnione uprawnionym podmiotom, takim jak Sąd, Prokuratura, Policja itd., na ich uzasadniony wniosek</p><p><strong><span style="color: #0086e0;">Jeżeli jesteś naszym kontrahentem…</span></strong></p><p>Państwa dane osobowe są nam potrzebne, by zrealizować umowę, którą Państwo zawierają z ZTM (podstawa prawna przetwarzania: art. 6 ust 1 lit. b RODO). Przede wszystkim dla:</p><p>- wyboru kontrahenta w ramach postępowania o udzielenie zamówienia publicznego i będą przechowywane przez okres co najmniej 4 lat od zakończenia postępowania.</p><p>- realizacji umowy z kontrahentem i będą przechowywane przez okres minimum 6 lat od daty zakończenia umowy ze względu na wymagania przepisów prawa podatkowego a jeśli umowa zostaje zawarta z finansowaniem z funduszy EU bądź okres gwarancji jest dłuższy, okres ten może ulec wydłużeniu.</p><p>- zapewnienia bezpieczeństwa informacji i będą przetwarzane przez okres 5 lat po zakończeniu umowy.</p><p>Z uwagi na konieczność zapewnienia prawidłowego funkcjonowania oraz zapewnienia zgodności z prawem Państwa dane osobowe mogą zostać przekazane podmiotom takim jak Urząd Miasta Poznania i jego jednostki, Rada Miasta Poznania, Krajowa Izba Odwoławcza, dostawcy systemów IT, firmy doradcze i konsultingowe, kancelarie prawne i windykacyjne, firmy realizujące usługę niszczenia dokumentów oraz innym uprawnionym podmiotom na uzasadniony wniosek np. Policja, Prokuratura, Sąd itp.</p><p>Każdorazowo dokładamy wszelkich starań, aby zostali Państwo poinformowani o celu przetwarzania danych osobowych, podstawie prawnej tego przetwarzania, okresie retencji danych i wszystkich innych kwestiach wymaganych przez RODO w ramach realizacji obowiązku informacyjnego.</p><p><strong><span style="color: #0086e0;">Prawa osób, których dane dotyczą</span></strong></p><p>Możecie Państwo adresować do nas wnioski zawierające żądania o realizację przysługujących Państwu praw. Prawa te dotyczą w szczególności:</p><p>1)      dostępu do danych osobowych,</p><p>2)      sprostowania ich,</p><p>3)      usunięcia danych osobowych („prawo do bycia zapomnianym”),</p><p>4)      ograniczenia przetwarzania,</p><p>5)      przenoszenia danych osobowych,</p><p>6)      sprzeciwu wobec dalszego przetwarzania.</p><p>Wniosek może być przesłany pocztą, mailowo, lub złożony za pośrednictwem Biura Obsługi Klienta ZTM.</p><p>Jeżeli realizacja wniosku będzie trwała dłużej niż miesiąc - o przedłużeniu terminu udzielenia odpowiedzi zostaną Państwo poinformowani odrębnym pismem/wiadomością (ewentualne przedłużenie jest możliwe z uwagi na złożoność żądania lub liczbę złożonych wniosków).</p><p>Jeżeli wniosek nie pozwala na Państwa jednoznaczną identyfikację lub jest niejasny – w terminie jednego miesiąca od wpływu wniosku, skierujemy do Państwa prośbę o jego uzupełnienie.</p><p>Jeżeli wniosek zostanie złożony w formie elektronicznej, dalsza korespondencja będzie w miarę możliwości prowadzona również w tej formie. W innych przypadkach o sposobie rozpoznania wniosku zostaną Państwo poinformowani w formie pisemnej, listem poleconym za potwierdzeniem odbioru.</p><p>Rozpatrzenie wniosku jest wolne od opłat. Jeżeli jednak żądanie jest nieuzasadnione lub często powtarzane, Administrator może nałożyć uzasadnioną opłatę, uwzględniającą rozsądne koszty administracyjne związane z rozpoznaniem wniosku, komunikacją lub przeprowadzeniem wnioskowanych operacji albo odmówić rozpoznania wniosku.</p><p>Dodatkowo, w przypadku wystąpienia naruszenia ochrony danych osobowych, których skutki mogą Państwa dotyczyć, zostaną Państwo o tym poinformowani.</p><p align="left"> <span style="color: #0086e0;"><strong>Inspektor Ochrony Danych</strong></span></p><p>W</p><p>W ZTM powołano Inspektora Ochrony Danych (Hanna Lewandowska) oraz Zastępcę Inspektora Ochrony Danych (Roman Przybylski).</p><p>Inspektor Ochrony Danych weryfikuje prawidłowość przetwarzania danych osobowych oraz dba o ochronę praw i wolności osób, których dane osobowe są przetwarzane przez ZTM.  Z Inspektorem Ochrony Danych można skontaktować się we wszelkich sprawach związanych z ochroną Państwa danych osobowymi (w zakresie w jakim dane te są przetwarzane przez Administratora):</p><ul><li>elektronicznie na adres e-mail: <a href="mailto:iod@ztm.poznan.pl">iod(at)ztm.poznan.pl</a>,</li>
+<li>pisemnie na adres: Zarząd Transportu Miejskiego w Poznaniu, ul. Matejki 59, 60-770 Poznań.</li>
+</ul><p>Jeżeli mają Państwo pytania lub wątpliwości w zakresie ochrony Państwa danych osobowych, również prosimy o kontakt poprzez wskazany adres. Z przyjemnością udzielimy szczegółowych informacji.</p>
+					
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default ignore-modal-cookie" data-id="4">Nie teraz</button>
+					<button type="button" class="btn btn-primary close-modal-cookie" data-id="4">Zapoznałem się</button>
+				</div>
+			</div><!-- /.modal-content -->
+		<!-- </div><!-- /.modal-dialog -->
+	<!-- </div><!-- /.modal -->
+	
+
+	<style>
+	@media (max-width: 640px){
+	#facebook {
+		width: 350px;
+		visibility:hidden;
+		height: 510px;
+		position: fixed;
+		top: 80px;
+		background-color: #fff;
+		border: 5px solid #3B5997;
+		right: -350px;
+		z-index: 1002;
+		transition: right 0.5s ease-out;
+	}
+}
+@media (min-width: 640px) {
+	#facebook {
+		width: 350px;
+		height: 510px;
+		position: fixed;
+		top: 80px;
+		background-color: #fff;
+		border: 5px solid #3B5997;
+		right: -350px;
+		z-index: 1002;
+		transition: right 0.5s ease-out;
+	}
+	#facebook:after {
+		content: url('/themes/ztm/dist/img/fb.png');
+		position: absolute;
+		left: -45px;
+		top: -5px;
+		cursor: pointer;
+	}
+	#facebook:hover {
+		right: 0;
+	}
+} 
+</style>
+<div id="facebook">
+	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FZTMwPoznaniu%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+	<div class="planner-float-box">
+    <button class="planner-float-box__button">Rozkłady jazdy</button>
+    <ul class="box-menu">
+        <li class="box-menu__item">
+            <a href="/pl/rozklad-jazdy/">
+                <img src="/ztm-trip-planner/assets/images/box-icons/rj.png"/>
+                Rozkłady jazdy
+            </a>
+        </li>
+        <div class="box-menu__item box-menu__item-serach">
+            <div class="line-search">
+                <input type="text" class="line-search__input" placeholder="Wyszukaj linie"/>
+                <ul class="autocomplete">
+                    
+                        <li class="autocomplete__item" data-name="1"><a href="/pl/rozklad-jazdy/1">1</a></li>
+                    
+                        <li class="autocomplete__item" data-name="2"><a href="/pl/rozklad-jazdy/2">2</a></li>
+                    
+                        <li class="autocomplete__item" data-name="3"><a href="/pl/rozklad-jazdy/3">3</a></li>
+                    
+                        <li class="autocomplete__item" data-name="5"><a href="/pl/rozklad-jazdy/5">5</a></li>
+                    
+                        <li class="autocomplete__item" data-name="6"><a href="/pl/rozklad-jazdy/6">6</a></li>
+                    
+                        <li class="autocomplete__item" data-name="7"><a href="/pl/rozklad-jazdy/7">7</a></li>
+                    
+                        <li class="autocomplete__item" data-name="8"><a href="/pl/rozklad-jazdy/8">8</a></li>
+                    
+                        <li class="autocomplete__item" data-name="9"><a href="/pl/rozklad-jazdy/9">9</a></li>
+                    
+                        <li class="autocomplete__item" data-name="10"><a href="/pl/rozklad-jazdy/10">10</a></li>
+                    
+                        <li class="autocomplete__item" data-name="11"><a href="/pl/rozklad-jazdy/11">11</a></li>
+                    
+                        <li class="autocomplete__item" data-name="12"><a href="/pl/rozklad-jazdy/12">12</a></li>
+                    
+                        <li class="autocomplete__item" data-name="13"><a href="/pl/rozklad-jazdy/13">13</a></li>
+                    
+                        <li class="autocomplete__item" data-name="14"><a href="/pl/rozklad-jazdy/14">14</a></li>
+                    
+                        <li class="autocomplete__item" data-name="15"><a href="/pl/rozklad-jazdy/15">15</a></li>
+                    
+                        <li class="autocomplete__item" data-name="16"><a href="/pl/rozklad-jazdy/16">16</a></li>
+                    
+                        <li class="autocomplete__item" data-name="17"><a href="/pl/rozklad-jazdy/17">17</a></li>
+                    
+                        <li class="autocomplete__item" data-name="18"><a href="/pl/rozklad-jazdy/18">18</a></li>
+                    
+                        <li class="autocomplete__item" data-name="24"><a href="/pl/rozklad-jazdy/24">24</a></li>
+                    
+                        <li class="autocomplete__item" data-name="99"><a href="/pl/rozklad-jazdy/99">99</a></li>
+                    
+                        <li class="autocomplete__item" data-name="121"><a href="/pl/rozklad-jazdy/121">121</a></li>
+                    
+                        <li class="autocomplete__item" data-name="122"><a href="/pl/rozklad-jazdy/122">122</a></li>
+                    
+                        <li class="autocomplete__item" data-name="123"><a href="/pl/rozklad-jazdy/123">123</a></li>
+                    
+                        <li class="autocomplete__item" data-name="124"><a href="/pl/rozklad-jazdy/124">124</a></li>
+                    
+                        <li class="autocomplete__item" data-name="145"><a href="/pl/rozklad-jazdy/145">145</a></li>
+                    
+                        <li class="autocomplete__item" data-name="146"><a href="/pl/rozklad-jazdy/146">146</a></li>
+                    
+                        <li class="autocomplete__item" data-name="148"><a href="/pl/rozklad-jazdy/148">148</a></li>
+                    
+                        <li class="autocomplete__item" data-name="149"><a href="/pl/rozklad-jazdy/149">149</a></li>
+                    
+                        <li class="autocomplete__item" data-name="152"><a href="/pl/rozklad-jazdy/152">152</a></li>
+                    
+                        <li class="autocomplete__item" data-name="154"><a href="/pl/rozklad-jazdy/154">154</a></li>
+                    
+                        <li class="autocomplete__item" data-name="156"><a href="/pl/rozklad-jazdy/156">156</a></li>
+                    
+                        <li class="autocomplete__item" data-name="157"><a href="/pl/rozklad-jazdy/157">157</a></li>
+                    
+                        <li class="autocomplete__item" data-name="158"><a href="/pl/rozklad-jazdy/158">158</a></li>
+                    
+                        <li class="autocomplete__item" data-name="159"><a href="/pl/rozklad-jazdy/159">159</a></li>
+                    
+                        <li class="autocomplete__item" data-name="160"><a href="/pl/rozklad-jazdy/160">160</a></li>
+                    
+                        <li class="autocomplete__item" data-name="162"><a href="/pl/rozklad-jazdy/162">162</a></li>
+                    
+                        <li class="autocomplete__item" data-name="163"><a href="/pl/rozklad-jazdy/163">163</a></li>
+                    
+                        <li class="autocomplete__item" data-name="164"><a href="/pl/rozklad-jazdy/164">164</a></li>
+                    
+                        <li class="autocomplete__item" data-name="166"><a href="/pl/rozklad-jazdy/166">166</a></li>
+                    
+                        <li class="autocomplete__item" data-name="167"><a href="/pl/rozklad-jazdy/167">167</a></li>
+                    
+                        <li class="autocomplete__item" data-name="168"><a href="/pl/rozklad-jazdy/168">168</a></li>
+                    
+                        <li class="autocomplete__item" data-name="169"><a href="/pl/rozklad-jazdy/169">169</a></li>
+                    
+                        <li class="autocomplete__item" data-name="170"><a href="/pl/rozklad-jazdy/170">170</a></li>
+                    
+                        <li class="autocomplete__item" data-name="171"><a href="/pl/rozklad-jazdy/171">171</a></li>
+                    
+                        <li class="autocomplete__item" data-name="173"><a href="/pl/rozklad-jazdy/173">173</a></li>
+                    
+                        <li class="autocomplete__item" data-name="174"><a href="/pl/rozklad-jazdy/174">174</a></li>
+                    
+                        <li class="autocomplete__item" data-name="175"><a href="/pl/rozklad-jazdy/175">175</a></li>
+                    
+                        <li class="autocomplete__item" data-name="176"><a href="/pl/rozklad-jazdy/176">176</a></li>
+                    
+                        <li class="autocomplete__item" data-name="177"><a href="/pl/rozklad-jazdy/177">177</a></li>
+                    
+                        <li class="autocomplete__item" data-name="178"><a href="/pl/rozklad-jazdy/178">178</a></li>
+                    
+                        <li class="autocomplete__item" data-name="179"><a href="/pl/rozklad-jazdy/179">179</a></li>
+                    
+                        <li class="autocomplete__item" data-name="180"><a href="/pl/rozklad-jazdy/180">180</a></li>
+                    
+                        <li class="autocomplete__item" data-name="181"><a href="/pl/rozklad-jazdy/181">181</a></li>
+                    
+                        <li class="autocomplete__item" data-name="182"><a href="/pl/rozklad-jazdy/182">182</a></li>
+                    
+                        <li class="autocomplete__item" data-name="183"><a href="/pl/rozklad-jazdy/183">183</a></li>
+                    
+                        <li class="autocomplete__item" data-name="184"><a href="/pl/rozklad-jazdy/184">184</a></li>
+                    
+                        <li class="autocomplete__item" data-name="185"><a href="/pl/rozklad-jazdy/185">185</a></li>
+                    
+                        <li class="autocomplete__item" data-name="186"><a href="/pl/rozklad-jazdy/186">186</a></li>
+                    
+                        <li class="autocomplete__item" data-name="188"><a href="/pl/rozklad-jazdy/188">188</a></li>
+                    
+                        <li class="autocomplete__item" data-name="189"><a href="/pl/rozklad-jazdy/189">189</a></li>
+                    
+                        <li class="autocomplete__item" data-name="190"><a href="/pl/rozklad-jazdy/190">190</a></li>
+                    
+                        <li class="autocomplete__item" data-name="191"><a href="/pl/rozklad-jazdy/191">191</a></li>
+                    
+                        <li class="autocomplete__item" data-name="193"><a href="/pl/rozklad-jazdy/193">193</a></li>
+                    
+                        <li class="autocomplete__item" data-name="194"><a href="/pl/rozklad-jazdy/194">194</a></li>
+                    
+                        <li class="autocomplete__item" data-name="196"><a href="/pl/rozklad-jazdy/196">196</a></li>
+                    
+                        <li class="autocomplete__item" data-name="198"><a href="/pl/rozklad-jazdy/198">198</a></li>
+                    
+                        <li class="autocomplete__item" data-name="201"><a href="/pl/rozklad-jazdy/201">201</a></li>
+                    
+                        <li class="autocomplete__item" data-name="211"><a href="/pl/rozklad-jazdy/211">211</a></li>
+                    
+                        <li class="autocomplete__item" data-name="212"><a href="/pl/rozklad-jazdy/212">212</a></li>
+                    
+                        <li class="autocomplete__item" data-name="213"><a href="/pl/rozklad-jazdy/213">213</a></li>
+                    
+                        <li class="autocomplete__item" data-name="214"><a href="/pl/rozklad-jazdy/214">214</a></li>
+                    
+                        <li class="autocomplete__item" data-name="215"><a href="/pl/rozklad-jazdy/215">215</a></li>
+                    
+                        <li class="autocomplete__item" data-name="216"><a href="/pl/rozklad-jazdy/216">216</a></li>
+                    
+                        <li class="autocomplete__item" data-name="218"><a href="/pl/rozklad-jazdy/218">218</a></li>
+                    
+                        <li class="autocomplete__item" data-name="219"><a href="/pl/rozklad-jazdy/219">219</a></li>
+                    
+                        <li class="autocomplete__item" data-name="220"><a href="/pl/rozklad-jazdy/220">220</a></li>
+                    
+                        <li class="autocomplete__item" data-name="221"><a href="/pl/rozklad-jazdy/221">221</a></li>
+                    
+                        <li class="autocomplete__item" data-name="222"><a href="/pl/rozklad-jazdy/222">222</a></li>
+                    
+                        <li class="autocomplete__item" data-name="223"><a href="/pl/rozklad-jazdy/223">223</a></li>
+                    
+                        <li class="autocomplete__item" data-name="224"><a href="/pl/rozklad-jazdy/224">224</a></li>
+                    
+                        <li class="autocomplete__item" data-name="226"><a href="/pl/rozklad-jazdy/226">226</a></li>
+                    
+                        <li class="autocomplete__item" data-name="227"><a href="/pl/rozklad-jazdy/227">227</a></li>
+                    
+                        <li class="autocomplete__item" data-name="250"><a href="/pl/rozklad-jazdy/250">250</a></li>
+                    
+                        <li class="autocomplete__item" data-name="252"><a href="/pl/rozklad-jazdy/252">252</a></li>
+                    
+                        <li class="autocomplete__item" data-name="253"><a href="/pl/rozklad-jazdy/253">253</a></li>
+                    
+                        <li class="autocomplete__item" data-name="257"><a href="/pl/rozklad-jazdy/257">257</a></li>
+                    
+                        <li class="autocomplete__item" data-name="258"><a href="/pl/rozklad-jazdy/258">258</a></li>
+                    
+                        <li class="autocomplete__item" data-name="312"><a href="/pl/rozklad-jazdy/312">312</a></li>
+                    
+                        <li class="autocomplete__item" data-name="320"><a href="/pl/rozklad-jazdy/320">320</a></li>
+                    
+                        <li class="autocomplete__item" data-name="321"><a href="/pl/rozklad-jazdy/321">321</a></li>
+                    
+                        <li class="autocomplete__item" data-name="322"><a href="/pl/rozklad-jazdy/322">322</a></li>
+                    
+                        <li class="autocomplete__item" data-name="323"><a href="/pl/rozklad-jazdy/323">323</a></li>
+                    
+                        <li class="autocomplete__item" data-name="341"><a href="/pl/rozklad-jazdy/341">341</a></li>
+                    
+                        <li class="autocomplete__item" data-name="342"><a href="/pl/rozklad-jazdy/342">342</a></li>
+                    
+                        <li class="autocomplete__item" data-name="348"><a href="/pl/rozklad-jazdy/348">348</a></li>
+                    
+                        <li class="autocomplete__item" data-name="388"><a href="/pl/rozklad-jazdy/388">388</a></li>
+                    
+                        <li class="autocomplete__item" data-name="392"><a href="/pl/rozklad-jazdy/392">392</a></li>
+                    
+                        <li class="autocomplete__item" data-name="394"><a href="/pl/rozklad-jazdy/394">394</a></li>
+                    
+                        <li class="autocomplete__item" data-name="396"><a href="/pl/rozklad-jazdy/396">396</a></li>
+                    
+                        <li class="autocomplete__item" data-name="397"><a href="/pl/rozklad-jazdy/397">397</a></li>
+                    
+                        <li class="autocomplete__item" data-name="416"><a href="/pl/rozklad-jazdy/416">416</a></li>
+                    
+                        <li class="autocomplete__item" data-name="425"><a href="/pl/rozklad-jazdy/425">425</a></li>
+                    
+                        <li class="autocomplete__item" data-name="431"><a href="/pl/rozklad-jazdy/431">431</a></li>
+                    
+                        <li class="autocomplete__item" data-name="432"><a href="/pl/rozklad-jazdy/432">432</a></li>
+                    
+                        <li class="autocomplete__item" data-name="435"><a href="/pl/rozklad-jazdy/435">435</a></li>
+                    
+                        <li class="autocomplete__item" data-name="501"><a href="/pl/rozklad-jazdy/501">501</a></li>
+                    
+                        <li class="autocomplete__item" data-name="502"><a href="/pl/rozklad-jazdy/502">502</a></li>
+                    
+                        <li class="autocomplete__item" data-name="503"><a href="/pl/rozklad-jazdy/503">503</a></li>
+                    
+                        <li class="autocomplete__item" data-name="511"><a href="/pl/rozklad-jazdy/511">511</a></li>
+                    
+                        <li class="autocomplete__item" data-name="512"><a href="/pl/rozklad-jazdy/512">512</a></li>
+                    
+                        <li class="autocomplete__item" data-name="527"><a href="/pl/rozklad-jazdy/527">527</a></li>
+                    
+                        <li class="autocomplete__item" data-name="560"><a href="/pl/rozklad-jazdy/560">560</a></li>
+                    
+                        <li class="autocomplete__item" data-name="561"><a href="/pl/rozklad-jazdy/561">561</a></li>
+                    
+                        <li class="autocomplete__item" data-name="602"><a href="/pl/rozklad-jazdy/602">602</a></li>
+                    
+                        <li class="autocomplete__item" data-name="603"><a href="/pl/rozklad-jazdy/603">603</a></li>
+                    
+                        <li class="autocomplete__item" data-name="610"><a href="/pl/rozklad-jazdy/610">610</a></li>
+                    
+                        <li class="autocomplete__item" data-name="611"><a href="/pl/rozklad-jazdy/611">611</a></li>
+                    
+                        <li class="autocomplete__item" data-name="614"><a href="/pl/rozklad-jazdy/614">614</a></li>
+                    
+                        <li class="autocomplete__item" data-name="616"><a href="/pl/rozklad-jazdy/616">616</a></li>
+                    
+                        <li class="autocomplete__item" data-name="651"><a href="/pl/rozklad-jazdy/651">651</a></li>
+                    
+                        <li class="autocomplete__item" data-name="690"><a href="/pl/rozklad-jazdy/690">690</a></li>
+                    
+                        <li class="autocomplete__item" data-name="701"><a href="/pl/rozklad-jazdy/701">701</a></li>
+                    
+                        <li class="autocomplete__item" data-name="702"><a href="/pl/rozklad-jazdy/702">702</a></li>
+                    
+                        <li class="autocomplete__item" data-name="703"><a href="/pl/rozklad-jazdy/703">703</a></li>
+                    
+                        <li class="autocomplete__item" data-name="704"><a href="/pl/rozklad-jazdy/704">704</a></li>
+                    
+                        <li class="autocomplete__item" data-name="705"><a href="/pl/rozklad-jazdy/705">705</a></li>
+                    
+                        <li class="autocomplete__item" data-name="707"><a href="/pl/rozklad-jazdy/707">707</a></li>
+                    
+                        <li class="autocomplete__item" data-name="710"><a href="/pl/rozklad-jazdy/710">710</a></li>
+                    
+                        <li class="autocomplete__item" data-name="716"><a href="/pl/rozklad-jazdy/716">716</a></li>
+                    
+                        <li class="autocomplete__item" data-name="727"><a href="/pl/rozklad-jazdy/727">727</a></li>
+                    
+                        <li class="autocomplete__item" data-name="729"><a href="/pl/rozklad-jazdy/729">729</a></li>
+                    
+                        <li class="autocomplete__item" data-name="801"><a href="/pl/rozklad-jazdy/801">801</a></li>
+                    
+                        <li class="autocomplete__item" data-name="802"><a href="/pl/rozklad-jazdy/802">802</a></li>
+                    
+                        <li class="autocomplete__item" data-name="803"><a href="/pl/rozklad-jazdy/803">803</a></li>
+                    
+                        <li class="autocomplete__item" data-name="804"><a href="/pl/rozklad-jazdy/804">804</a></li>
+                    
+                        <li class="autocomplete__item" data-name="811"><a href="/pl/rozklad-jazdy/811">811</a></li>
+                    
+                        <li class="autocomplete__item" data-name="812"><a href="/pl/rozklad-jazdy/812">812</a></li>
+                    
+                        <li class="autocomplete__item" data-name="813"><a href="/pl/rozklad-jazdy/813">813</a></li>
+                    
+                        <li class="autocomplete__item" data-name="821"><a href="/pl/rozklad-jazdy/821">821</a></li>
+                    
+                        <li class="autocomplete__item" data-name="832"><a href="/pl/rozklad-jazdy/832">832</a></li>
+                    
+                        <li class="autocomplete__item" data-name="833"><a href="/pl/rozklad-jazdy/833">833</a></li>
+                    
+                        <li class="autocomplete__item" data-name="834"><a href="/pl/rozklad-jazdy/834">834</a></li>
+                    
+                        <li class="autocomplete__item" data-name="835"><a href="/pl/rozklad-jazdy/835">835</a></li>
+                    
+                        <li class="autocomplete__item" data-name="836"><a href="/pl/rozklad-jazdy/836">836</a></li>
+                    
+                        <li class="autocomplete__item" data-name="837"><a href="/pl/rozklad-jazdy/837">837</a></li>
+                    
+                        <li class="autocomplete__item" data-name="882"><a href="/pl/rozklad-jazdy/882">882</a></li>
+                    
+                        <li class="autocomplete__item" data-name="886"><a href="/pl/rozklad-jazdy/886">886</a></li>
+                    
+                        <li class="autocomplete__item" data-name="889"><a href="/pl/rozklad-jazdy/889">889</a></li>
+                    
+                        <li class="autocomplete__item" data-name="891"><a href="/pl/rozklad-jazdy/891">891</a></li>
+                    
+                        <li class="autocomplete__item" data-name="893"><a href="/pl/rozklad-jazdy/893">893</a></li>
+                    
+                        <li class="autocomplete__item" data-name="901"><a href="/pl/rozklad-jazdy/901">901</a></li>
+                    
+                        <li class="autocomplete__item" data-name="902"><a href="/pl/rozklad-jazdy/902">902</a></li>
+                    
+                        <li class="autocomplete__item" data-name="904"><a href="/pl/rozklad-jazdy/904">904</a></li>
+                    
+                        <li class="autocomplete__item" data-name="905"><a href="/pl/rozklad-jazdy/905">905</a></li>
+                    
+                        <li class="autocomplete__item" data-name="907"><a href="/pl/rozklad-jazdy/907">907</a></li>
+                    
+                        <li class="autocomplete__item" data-name="911"><a href="/pl/rozklad-jazdy/911">911</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+        <li class="box-menu__item">
+            <a href="/pl/abc-pasazera/mapy-i-schematy-sieci/">
+                <img src="/ztm-trip-planner/assets/images/box-icons/mapy_i_schematy.png"/>
+                Mapy i schematy
+            </a>
+        </li>
+        <li class="box-menu__item">
+            <a href="/pl/rozklad-jazdy/mapa">
+                <img src="/ztm-trip-planner/assets/images/box-icons/pojazdy_z_gps.png"/>
+                Pojazdy z GPS <br/>
+                (Wersja testowa)
+            </a>
+        </li>
+        <li class="box-menu__item">
+            <a href="https://www.peka.poznan.pl/vm/" target="_blank">
+                <img src="/ztm-trip-planner/assets/images/box-icons/wirtualny_monitor.png"/>
+                Wirtualny Monitor
+            </a>
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript" src="/framework/javascript/i18n.js?m=1498564096"></script><script type="text/javascript" src="/mysite/js/lang/en.js?m=1614089091"></script><script type="text/javascript" src="/mysite/js/lang/pl.js?m=1614089091"></script><script type="text/javascript" src="/themes/ztm/combined/combined.js?m=1669893617"></script><script type="text/javascript" src="https://use.fontawesome.com/e04248f097.js"></script><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script><script type="text/javascript" src="/ztm-trip-planner/assets/js/trip-planner-box.js?m=1619349304"></script><script type="text/javascript">//<![CDATA[
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-8422682-1', 'auto');
+ga('send', 'pageview', location.pathname.replace(/\/+$/, ''));
+
+
+
+//]]></script></body>
+</html>
